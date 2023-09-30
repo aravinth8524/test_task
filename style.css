@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.flex_items{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 15px;
+}
+section{
+    display: flex;
+}
+.content h4{
+    margin: 1em 2em;
+    font-size: 1.em;
+    color: blue;
+    box-shadow: 0 0 2px;
+    width: fit-content;
+    padding: 5px;
+    background-color: aquamarine;
+}
+.content h1{
+    margin: 0.6em ;
+    font-size: 3em;;
+}
+#line{
+    color: blue;
+}
+.content p{
+    font-size: 1em;
+    margin: 0 2em;
+    color: gray;
+}
+.content .btn1{
+    margin: 3em 2em;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+}
+.btn2{
+    border: 1px solid gray;
+    background-color: white;
+    margin: 3em 2em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+.right img{
+    width: 150px;
+    margin: 2em 2em;
+    box-shadow: 0 0 6px -4px;
+    border-radius: 22px;
+    
+}
+#img1{
+    width: 250px;
+}
+#img2{
+    margin-top: 7em;
+    width: 250px;
+}
+.check{
+    margin-left: 0.5em;
+}
+ #img3{
+    position:relative;
+}
+.bi-facebook{
+    position: absolute;
+    top: 1em;
+    left: 49em;
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    border-radius: 12px;
+}
+.bi-tiktok{
+    position: absolute;
+    top: 13em;
+    left: 68em;
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    border-radius: 12px;
+
+}
+.bi-google{
+    position: absolute;
+    top: 19em;
+    left: 64em;
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    border-radius: 12px;
+
+}
+.bi-snapchat{
+    position: absolute;
+    top: 24em;
+    left: 50em;
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    border-radius: 12px;
+
+
+
+}
+.bi-globe{
+    position: absolute;
+    top: 13em;
+    left: 54em;
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    border-radius: 12px;
+}
+.border{
+    position: relative;
+}
+.border::after{
+    content: ' ';
+    border-right: 1px dashed blue;
+    border-top: 1px dashed blue;
+    /* border-bottom: 1px dashed; */
+    height: 325px;
+    width: 89px;
+    position: absolute;
+    top: 2em;
+    left: 10em;
+}
+.border::before{
+    content: ' ';
+    border-top: 1px dashed blue;
+    /* border-top: 1px dashed blue; */
+    border-left: 1px dashed blue;
+    height: 205px;
+    width: 280px;
+    position: absolute;
+    left: 11.5em;
+    top: 14.5em;
+}
+.border2::before{
+    content: ' ';
+    border-top: 1px dashed blue;
+    /* border-top: 1px dashed blue; */
+    /* border-left: 1px dashed blue; */
+    height: 205px;
+    width: 45px;
+    position: absolute;
+    left: 55.5em;
+    top: 22.4em;
+
+}
